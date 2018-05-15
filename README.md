@@ -1,6 +1,8 @@
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
-## Bignyanco is neovim use deoplete. 
+## Bignyanco is neovim plugins. 
+
+Enviroments
 
 ```
 neovim

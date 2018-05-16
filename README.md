@@ -15,9 +15,23 @@ deinでプラグインを管理しているとき
 
 > call dein#add('takkii/Bignyanco')
 
-init.vimに追加します。それだけで[neko_dictionary]と表示されます。
+init.vimに追加します。
 
-**Ruby入力補完辞書を変換して、rpluginに入れました。**
+deopleteを動作させるために、
+
+>:UpdateRemotePlugins
+
+>:CheckHealth
+
+コマンドを入力して、結果を確認します。
+
+※スタートアップの記述は書いたよね。
+
+deopleteが動作すれば、[neko_dictionary]と表示されます。
+
+**Ruby入力補完辞書をneovim_plugins用に変換しました**
+
+開発時、もふもふ系のメディアをみていて、
 
 ねこには、いつも癒やされます🐱(=^・^=)(ΦωΦ)
 

@@ -2,7 +2,7 @@
 
 ## Bignyanco is neovim plugins. 
 
-Enviroments
+環境 ( Enviroments )
 
 ```
 neovim
@@ -11,13 +11,13 @@ deoplete.nvim
 $XDG_CONFIG_HOME=~/.config/nvim
 ```
 
-deinでプラグインを管理しているとき
+## deinでプラグインを管理しているとき
 
 > call dein#add('takkii/Bignyanco')
 
 init.vimに追加します。
 
-deopleteを動作させるために、
+## deopleteを動作させるために、
 
 >:UpdateRemotePlugins
 
@@ -25,14 +25,16 @@ deopleteを動作させるために、
 
 コマンドを入力して、結果を確認します。
 
-※スタートアップの記述は書いたよね。
+エラーがあればメッセージをみて対処します。
 
-deopleteが動作すれば、[neko_dictionary]と表示されます。
+※ deopleteのスタートアップ記述は書いたよね。
 
-**Ruby入力補完辞書をneovim_plugins用に変換しました**
+## deopleteが動作すれば、[neko_dictionary]と表示されます。
+
+**Ruby入力補完辞書をneovim_pluginsに変換しました。**
 
 開発時、もふもふ系のメディアをみていて、
 
-ねこには、いつも癒やされます🐱(=^・^=)(ΦωΦ)
+## ねこには、いつも癒やされます🐱(=^・^=)(ΦωΦ)
 
 ![ねこだるま](https://github.com/takkii/Bignyanco/blob/master/images/nekodaruma.jpg)

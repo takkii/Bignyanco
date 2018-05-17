@@ -10,6 +10,7 @@ open(ARGV[0]) do |f|
     fe.write n.read.gsub('["','"')
     f.close
     fe.close
+    n.close
     end
     exit!
   end

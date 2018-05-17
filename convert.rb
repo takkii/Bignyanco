@@ -6,8 +6,8 @@ open(ARGV[0]) do |f|
     str.chomp!
     name.each do |n|
     fe.print n.split('/')
-    fe.write n.read.gsub(',"]','",')
-    fe.write n.read.gsub('["','"')
+    fe.write n.read.gsub(,"],",)
+    fe.write n.read.gsub([",")
     f.close
     fe.close
     n.close

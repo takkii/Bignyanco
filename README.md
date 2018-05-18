@@ -37,4 +37,4 @@ init.vimに追加します。
 
 ## ねこには、いつも癒やされます🐱(=^・^=)(ΦωΦ)
 
-![ねこだるま](https://github.com/takkii/Bignyanco/blob/master/images/nekodaruma.jpg)
+![ねこだるま](https://github.com/takkii/Bignyanco/blob/master/images/nekodaruma.jpg)![ねこだるま2](https://github.com/takkii/Bignyanco/blob/master/images/nekodaruma2.jpg)

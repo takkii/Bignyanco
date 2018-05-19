@@ -20,4 +20,4 @@ class Source(Base):
         fi.close()
 
         for line2 in line:
-        return line
+        return line2

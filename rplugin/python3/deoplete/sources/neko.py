@@ -3,10 +3,12 @@ from .base import Base
 
 class Source(Base):
     def __init__(self, vim):
-        self.name = 'Nekodaruma2'
+        super().__init__(vim)
+        self.name = 'Bignyanco'
         self.filetypes = ['ruby']
         self.mark = '[neko_dictionary]'
         self.input_pattern = (r'^ruby\.')
+        self.rank = 500
 
     def get_complete_position(self, context):
         m = re.search(r'[^. *\t]\w*$', context['input'])

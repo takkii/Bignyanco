@@ -6,7 +6,6 @@ class Source(Base):
         self.name = 'Nekodaruma2'
         self.filetypes = ['ruby']
         self.mark = '[neko_dictionary]'
-        self.rank = 500
         self.input_pattern = (r'^ruby\.')
 
     def get_complete_position(self, context):

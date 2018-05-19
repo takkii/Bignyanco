@@ -19,4 +19,4 @@ class Source(Base):
         fi = open(os.path.expanduser('~/.config/nvim/repos/github.com/takkii/Bignyanco/complete/ruby_complete'),'r')
         line = fi.readline()
         fi.close()
-        return str(line).decode('string-escape')
+        return line

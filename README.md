@@ -9,8 +9,8 @@ neovim
 python3
 deoplete.nvim
 $XDG_CONFIG_HOME=~/.config/nvim (default)
-init.vim or .vimrc (Don't need)
-let g:python3_host_prog='python path' (Don't need)
+let g:python3_host_prog='python path' 
+(Don't need to add python3_host_prog. To init.vim or .vimrc)
 ```
 
 ## If dein plugin manager using ? 

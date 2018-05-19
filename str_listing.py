@@ -11,3 +11,4 @@ str(nishi).decode("string-escape")
 nishi.sort()
 print nishi
 print line
+print type(line)

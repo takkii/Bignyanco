@@ -17,6 +17,6 @@ class Source(Base):
 
     def gather_candidates(self, context):
         fi = open(os.path.expanduser('~/.config/nvim/repos/github.com/takkii/Bignyanco/complete/ruby_complete'),'r')
-        line = fi.readline()
+        line = fi.read()
         fi.close()
-        return line
+        return type(line)

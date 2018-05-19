@@ -1,15 +1,16 @@
 import re
 import os.path
-import sys
 from .base import Base
 
 class Source(Base):
     def __init__(self, vim):
         super().__init__(vim)
-        self.name = 'Bignyanco'
-        self.mark = '[neo_dictionary]'
-        self.input_pattern = (r'^ruby\.')
 
+        self.name = 'Nekodaruma2'
+        self.filetypes = ['ruby']
+        self.mark = '[neo_dictionary]'
+        self.rank = 450
+        
     def get_complete_position(self, context):
         m = re.search(r'[^. *\t]\w*$', context['input'])
         return m.start() if m else -1
@@ -18,4 +19,5 @@ class Source(Base):
         fi = open(os.path.expanduser('~/.config/nvim/repos/github.com/takkii/Bignyanco/complete/ruby_complete'),'r')
         line = fi.readline()
         fi.close()
-        return line
+        return str(line).decode('string-escape')
+        return 

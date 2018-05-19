@@ -1,5 +1,6 @@
 import re
 import os.path
+import string
 from .base import Base
 
 class Source(Base):
@@ -9,7 +10,6 @@ class Source(Base):
         self.name = 'Nekodaruma2'
         self.filetypes = ['ruby']
         self.mark = '[neo_dictionary]'
-        self.rank = 450
         
     def get_complete_position(self, context):
         m = re.search(r'[^. *\t]\w*$', context['input'])
@@ -17,6 +17,6 @@ class Source(Base):
 
     def gather_candidates(self, context):
         fi = open(os.path.expanduser('~/.config/nvim/repos/github.com/takkii/Bignyanco/complete/ruby_complete'),'r')
-        line = fi.read()
+        line = fi.readline()
         fi.close()
-        return type(line)
+        return str(line).decode(encoding='utf-8')

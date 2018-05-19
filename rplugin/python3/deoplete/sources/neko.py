@@ -1,5 +1,4 @@
 import re
-import sys
 import os.path
 from .base import Base
 
@@ -15,6 +14,6 @@ class Source(Base):
         return m.start() if m else -1
 
     def gather_candidates(self, context):
-        fi = open(os.path.expanduser('~/.config/nvim/repos/github.com/takkii/Bignyanco/complete/ruby_complete'),'r',encoding='utf-8')
+        fi = open(os.path.expanduser('~/.config/nvim/repos/github.com/takkii/Bignyanco/complete/ruby_complete'))
         return fi.read()
         fi.close()

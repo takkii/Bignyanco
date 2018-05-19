@@ -5,4 +5,4 @@ fi = open(os.path.expanduser('~/.config/nvim/repos/github.com/takkii/Bignyanco/c
 line = fi.readline()
 fi.close()
 
-print line
+print line.sort(key=to_lower)

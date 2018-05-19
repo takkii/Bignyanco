@@ -19,5 +19,4 @@ class Source(Base):
         line = fi.readlines()
         fi.close()
 
-        for line2 in line:
-        return line2
+        return line

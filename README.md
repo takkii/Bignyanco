@@ -22,7 +22,9 @@ let g:python3_host_prog='python path'
 *Becase init.vim add.*
 
 ```
-deoplete running, 
+Deoplete running. 
+
+Coding Ruby file,
 
 Bignyanco is listing [neo_dictionary].
 ```

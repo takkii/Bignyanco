@@ -6,7 +6,7 @@ class Source(Base):
         super().__init__(vim)
         self.name = 'Bignyanco'
         self.filetypes = ['ruby']
-        self.mark = '[neko_dictionary]'
+        self.mark = '[neo_dictionary]'
         self.input_pattern = (r'\.[a-zA-Z0-9_?!]*|[a-zA-Z]\w*::\w*')
         self.rank = 500
 

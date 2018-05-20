@@ -24,7 +24,7 @@ let g:python3_host_prog='python path'
 ```
 deoplete running, 
 
-Bignyanco is listing [neko_dictionary].
+Bignyanco is listing [neo_dictionary].
 ```
 
 

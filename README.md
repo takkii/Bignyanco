@@ -2,6 +2,8 @@
 
 ## Bignyanco is neovim plugins. 
 
+#### ※ Bignyanco is converted(convert.rb) [ruby-dictionary3](https://github.com/takkii/ruby-dictionary3) String.
+
 ・Enviroments
 
 ```
@@ -17,10 +19,13 @@ let g:python3_host_prog='python path'
 
 > call dein#add('takkii/Bignyanco')
 
-#### Becase init.vim add.
+*Becase init.vim add.*
 
-#### deoplete running, 
+```
+deoplete running, 
 
-#### Bignyanco is listing [neko_dictionary].
+Bignyanco is listing [neko_dictionary].
+```
+
 
 ![ねこだるま](https://github.com/takkii/Bignyanco/blob/master/images/nekodaruma.jpg)![ねこだるま2](https://github.com/takkii/Bignyanco/blob/master/images/nekodaruma2.jpg)

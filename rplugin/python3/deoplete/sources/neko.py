@@ -14,7 +14,7 @@ class Source(Base):
 
     def get_complete_position(self, context):
         p = Pool(10)
-        m = p.re.search('[a-zA-Z0-9_?!]*$', context['input'])
+        m = re.p.search('[a-zA-Z0-9_?!]*$', context['input'])
         return m.start() if m else -1
 
     def gather_candidates(self, context):

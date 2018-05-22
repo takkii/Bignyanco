@@ -1,9 +1,14 @@
 import re
 import os.path
+from multiprocessing import Pool
 
+if __name__ == "__main__":
+	p = Pool(5)
 fi = open(os.path.expanduser('~/.config/nvim/repos/github.com/takkii/Bignyanco/complete/ruby_complete'),'r')
 line = fi.readline()
 fif = "".join(line)
+p.close()
+p.join()
 print fif
 print type(fif)
 

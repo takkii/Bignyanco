@@ -6,7 +6,7 @@ if __name__ == "__main__":
 	p = Pool(5)
 fi = open(os.path.expanduser('~/.config/nvim/repos/github.com/takkii/Bignyanco/complete/ruby_complete'),'r')
 line = fi.readline()
-fif = "".join(line)
+map1 = map()
 p.close()
 p.join()
 print fif

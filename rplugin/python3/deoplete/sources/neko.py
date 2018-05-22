@@ -12,9 +12,7 @@ class Source(Base):
         self.rank = 500
 
     def get_complete_position(self, context):
-        if __name__ == "__main__":
-        p = Pool(process=5)
-        m = p.re.search('[a-zA-Z0-9_?!]*$', context['input'])
+        m = re.search('[a-zA-Z0-9_?!]*$', context['input'])
         return m.start() if m else -1
 
     def gather_candidates(self, context):

@@ -20,6 +20,5 @@ class Source(Base):
         fi = open(os.path.expanduser('~/.config/nvim/repos/github.com/takkii/Bignyanco/complete/ruby_method_complete'),'r')
         line = fi.readline()
         line = list(line)
-        line.extend(["tanraku","tanraku_log"])
         line.sort(key=lambda x:x[0])
         return line

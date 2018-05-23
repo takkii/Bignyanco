@@ -28,4 +28,4 @@ Bignyanco is listing [neo_dictionary].
 ```
 
 
-![ねこだるま](https://github.com/takkii/Bignyanco/blob/master/images/nekodaruma.jpg)![ねこだるま2](https://github.com/takkii/Bignyanco/blob/master/images/nekodaruma2.jpg)
+![ねこだるま](https://github.com/takkii/Bignyanco/blob/master/images/nekodaruma.jpg)![ねこだるま2](https://github.com/takkii/Bignyanco/blob/master/images/nekodaruma2.jpg)![neoねこだるま](https://github.com/takkii/Bignyanco/blob/master/images/nekodaruma3.jpg)

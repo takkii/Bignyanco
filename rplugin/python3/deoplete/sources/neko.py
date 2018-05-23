@@ -1,5 +1,5 @@
 ﻿import re
-import numba
+from numba import jit
 from .base import Base
 
 class Source(Base):

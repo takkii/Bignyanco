@@ -6,7 +6,7 @@
 
 ・Enviroments
 
-```
+```text
 neovim
 python3
 deoplete.nvim
@@ -21,7 +21,7 @@ let g:python3_host_prog='python path'
 
 *Becase init.vim add.*
 
-```
+```text
 deoplete running, 
 
 Bignyanco is listing [neo_dictionary].

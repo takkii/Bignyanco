@@ -2,7 +2,9 @@
 
 ## Bignyanco is neovim plugins. 
 
-#### ※ Bignyanco is converted(convert.rb) [ruby-dictionary3](https://github.com/takkii/ruby-dictionary3) String.
+※ Bignyanco is the neovim plugins. However, if deoplete moves, it works with the vim plugins.
+
+#### Bignyanco is converted(convert.rb) [ruby-dictionary3](https://github.com/takkii/ruby-dictionary3) String.
 
 ・Enviroments
 

@@ -2,7 +2,9 @@
 
 ## Bignyanco is neovim plugins. 
 
-※ Bignyanco is the neovim plugins. However, if deoplete moves, it works with the vim plugins. Enviroments PC is Windows, Mac, Linux kernel etc.
+※ Bignyanco is the neovim plugins. However, if deoplete moves, it works with the vim plugins. 
+
+*Enviroments PC is Windows, Mac, Linux kernel etc.*
 
 #### Bignyanco is converted(convert.rb) [ruby-dictionary3](https://github.com/takkii/ruby-dictionary3) String.
 
@@ -13,7 +15,7 @@ neovim
 python3
 deoplete.nvim
 $XDG_CONFIG_HOME=~/.config/nvim (default)
-let g:python3_host_prog='python path' 
+let g:python3_host_prog='path contain python shell' 
 (Don't need to add python3_host_prog. To init.vim or .vimrc)
 ```
 

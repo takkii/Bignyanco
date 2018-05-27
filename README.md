@@ -39,3 +39,5 @@ Bignyanco is listing [neo_dictionary].
 *Windows10 + WSL + WSL-terminal*
 
 ![動画ねこだるま](https://github.com/takkii/Bignyanco/blob/master/images/neo_nekodaruma.gif)
+
+Author Takayuki Kamiyama.

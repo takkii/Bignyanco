@@ -6,7 +6,7 @@
 
 *Enviroments PC is Windows, Mac, Linux kernel etc.*
 
-#### Bignyanco is converted(convert.rb) [ruby-dictionary3](https://github.com/takkii/ruby-dictionary3) String.
+#### Bignyanco converted the dictionary word of [ruby-dictionary3](https://github.com/takkii/ruby-dictionary3) as a neovim plugins.
 
 ・Operating environment
 

@@ -8,7 +8,7 @@
 
 #### Bignyanco is converted(convert.rb) [ruby-dictionary3](https://github.com/takkii/ruby-dictionary3) String.
 
-・Enviroments
+・Operating environment
 
 ```text
 neovim
@@ -34,6 +34,8 @@ Bignyanco is listing [neo_dictionary].
 
 ![ねこだるま](https://github.com/takkii/Bignyanco/blob/master/images/nekodaruma.jpg)![闇炎のねこだるま](https://github.com/takkii/Bignyanco/blob/master/images/nekodaruma2.jpg)![殺意の波動に目覚めたねこだるま](https://github.com/takkii/Bignyanco/blob/master/images/nekodaruma3.jpg)
 
-### Windows10 + WSL + WSL-terminal
+### Japanese say, Sample moving picture.
+
+*Windows10 + WSL + WSL-terminal*
 
 ![動画ねこだるま](https://github.com/takkii/Bignyanco/blob/master/images/neo_nekodaruma.gif)

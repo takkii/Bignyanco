@@ -16,7 +16,10 @@ python3
 deoplete.nvim
 $XDG_CONFIG_HOME=~/.config/nvim (default)
 let g:python3_host_prog='path contain python shell' 
-(Don't need to add python3_host_prog. To init.vim or .vimrc)
+
+(iTerm or Terminal CUI enviroments, Don't need to add python3_host_prog. To init.vim or .vimrc)
+
+(neovim-qt etc GUI enviroments, Need to add python3_host_prog and python_host_prog. To init.vim or .vimrc)
 ```
 
 ## If dein plugin manager using ? 

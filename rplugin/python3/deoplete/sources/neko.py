@@ -8,7 +8,7 @@ class Source(Base):
         self.filetypes = ['ruby']
         self.mark = '[neo_dictionary]'
         rubymatch = [r'\.[a-zA-Z0-9_?!]*|[a-zA-Z]\w*::\w*']
-        regexmatch = [r'^[<a-zA-Z(?: .+?)?>.*?<\/a-zA-Z>]*']
+        regexmatch = [r'[<a-zA-Z(?: .+?)?>.*?<\/a-zA-Z>]']
         self.input_pattern = '|'.join( rubymatch + regexmatch )
         self.rank = 500
 

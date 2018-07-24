@@ -5,7 +5,7 @@ class Source(Base):
     def __init__(self, vim):
         super().__init__(vim)
         self.name = 'Bignyanco'
-        self.filetypes = ['ruby','html','erb']
+        self.filetypes = ['ruby','html','rails']
         self.mark = '[neo_dictionary]'
         rubymatch = [r'\.[a-zA-Z0-9_?!]*|[a-zA-Z]\w*::\w*']
         regexmatch = [r'[<a-zA-Z(?: .+?)?>.*?<\/a-zA-Z>]']

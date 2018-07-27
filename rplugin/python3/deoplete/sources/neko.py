@@ -1,5 +1,6 @@
 ﻿import re
-from .base import Base
+import base64
+from deoplete.source.base import Base
 
 class Source(Base):
     def __init__(self, vim):

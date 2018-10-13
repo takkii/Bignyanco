@@ -8,6 +8,8 @@
 
 #### Bignyanco converted the dictionary word of [ruby-dictionary3](https://github.com/takkii/ruby-dictionary3) as a neovim plugins.
 
+※ The html completion list has moved 'to takkii/bistro'.
+
 ・Operating environment
 
 ```text

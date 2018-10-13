@@ -250,6 +250,6 @@ class Source(Base):
               "RGENGC_CHECK_MODE", "RGENGC_PROFILE", "RGENGC_ESTIMATE_OLDMALLOC", "GC_PROFILE_MORE_DETAIL",
               "GC_ENABLE_LAZY_SWEEP", "CALC_EXACT_MALLOC_SIZE", "MALLOC_ALLOCATED_SIZE", "MALLOC_ALLOCATED_SIZE_CHECK",
               "GC_PROFILE_DETAIL_MEMORY"]
-        dic = ruby + denki + sql + gc
+        dic.extend = ruby + denki + sql + gc
         dic.sort(key=lambda dic: dic[0])
         return dic

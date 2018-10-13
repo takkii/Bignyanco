@@ -9,8 +9,7 @@ class Source(Base):
         self.name = 'Bignyanco'
         self.filetypes = ['ruby']
         self.mark = '[neo_dictionary]'
-        rubymatch = [r'\.[a-zA-Z0-9_?!]*|[a-zA-Z]\w*::\w*']
-        self.input_pattern = rubymatch
+        self.input_pattern = [r'\.[a-zA-Z0-9_?!]*|[a-zA-Z]\w*::\w*']
         self.rank = 500
 
     def get_complete_position(self, context):

@@ -17,7 +17,7 @@ class Source(Base):
         return m.start() if m else -1
 
     def gather_candidates(self, context):
-        ruby = ["!", "!=", "!=", "!~", "!~", "**", "+@", "-@", "<", "<<", "<=", "<=", "<=>", "<=>", "==", "==", "===",
+        dic = ["!", "!=", "!=", "!~", "!~", "**", "+@", "-@", "<", "<<", "<=", "<=", "<=>", "<=>", "==", "==", "===",
                 "===", "=~", "=~", ">", ">=", ">=", ">>", "ALT_SEPARATOR", "ANSI_X3_4_1968", "ARGF", "ARGV", "ASCII",
                 "ASCII_8BIT", "AUTO", "Acceptables", "AmbiguousArgument", "AmbiguousOption", "Arguable",
                 "ArgumentError", "ArgumentStyle", "Array", "Assertion", "Assertions", "BENCHMARK_VERSION", "BIG5",
@@ -236,20 +236,19 @@ class Source(Base):
                 "signm", "signo", "sin", "singleton_class", "singleton_class", "singleton_class?", "singleton_method",
                 "singleton_method_added", "singleton_method_removed", "singleton_method_undefined", "singleton_methods",
                 "singleton_methods"]
-        denki = ["tanraku", "tanraku_log"]
-        sql = ["SQLite3::Database", "execute", "db", "Constants", "Pragmas", "VersionProxyClasses:AbortException",
+        dic.extend(["tanraku", "tanraku_log"])
+        dic.extend(["SQLite3::Database", "execute", "db", "Constants", "Pragmas", "VersionProxyClasses:AbortException",
                "AuthorizationException", "Backup", "Blob", "BusyException", "CantOpenException", "ConstraintException",
                "CorruptException", "Database", "EmptyException", "Exception", "FormatException", "FullException",
                "IOException", "InternalException", "InterruptException", "LockedException", "MemoryException",
                "MismatchException", "MisuseException", "NotADatabaseException", "NotFoundException",
                "PermissionException", "ProtocolException", "RangeException", "ReadOnlyException", "ResultSet",
                "SQLException", "SchemaChangedException", "Statement", "TooBigException", "Translator",
-               "UnsupportedException", "Value", "SQLITE_VERSION", "SQLITE_VERSION_NUMBER", "rb_str_new2", "INT2FIX"]
-        gc = ["start", "count", "disable", "enable", "stat", "GC::Profiler", "latest_gc_info", "stress", "stress=",
+               "UnsupportedException", "Value", "SQLITE_VERSION", "SQLITE_VERSION_NUMBER", "rb_str_new2", "INT2FIX"])
+        dic.extend(["start", "count", "disable", "enable", "stat", "GC::Profiler", "latest_gc_info", "stress", "stress=",
               "garbage_collect", "INTERNAL_CONSTANTS", "OPTS", "GC_DEBUG", "USE_RGENGC", "RGENGC_DEBUG",
               "RGENGC_CHECK_MODE", "RGENGC_PROFILE", "RGENGC_ESTIMATE_OLDMALLOC", "GC_PROFILE_MORE_DETAIL",
               "GC_ENABLE_LAZY_SWEEP", "CALC_EXACT_MALLOC_SIZE", "MALLOC_ALLOCATED_SIZE", "MALLOC_ALLOCATED_SIZE_CHECK",
-              "GC_PROFILE_DETAIL_MEMORY"]
-        dic.extend = ruby + denki + sql + gc
+              "GC_PROFILE_DETAIL_MEMORY"])
         dic.sort(key=lambda dic: dic[0])
         return dic

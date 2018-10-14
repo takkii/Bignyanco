@@ -26,7 +26,18 @@ let g:python3_host_prog='path contain python shell'
 
 ## If dein plugin manager using ? 
 
-> call dein#add('takkii/Bignyanco')
+```
+init.vim
+
+call dein#add('takkii/Bignyanco')
+
+or
+
+dein.toml
+
+[[plugins]]
+repo = 'takkii/Bignyanco'
+```
 
 *Becase init.vim add.*
 

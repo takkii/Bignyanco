@@ -252,6 +252,7 @@ class Source(Base):
               "RGENGC_CHECK_MODE", "RGENGC_PROFILE", "RGENGC_ESTIMATE_OLDMALLOC", "GC_PROFILE_MORE_DETAIL",
               "GC_ENABLE_LAZY_SWEEP", "CALC_EXACT_MALLOC_SIZE", "MALLOC_ALLOCATED_SIZE", "MALLOC_ALLOCATED_SIZE_CHECK",
               "GC_PROFILE_DETAIL_MEMORY"]
-        dic = ruby + denki + sql + gc
+        test = ["MiniTest::Unit","autorun","output=","assertion_count","assertion_count=","errors","errors=","failures","failures=","location","process_args","puke","report","report=","run","run_test_suites","skips","skips=","start_time","start_time=","status","test_count","test_count=","VERSION","MiniTest::Unit::TestCase","inherited","new","reset","test_methods","test_order","test_suites","__name__","passed?","run","setup","teardown","PASSTHROUGH_EXCEPTIONS","SUPPORTS_INFO_SIGNAL","MiniTest","filter_backtrace","MINI_DIR","MiniTest::Assertions","_assertions","_assertions=","assert","assert_block","assert_empty","assert_equal","assert_in_delta","assert_in_epsilon","assert_includes","assert_instance_of","assert_kind_of","assert_match","assert_nil","assert_operator","assert_raises","assert_respond_to","assert_same","assert_send","assert_throws","capture_io","exception_details","flunk","message","mu_pp","pass","skip","MiniTest::Skip","minitest/autorun","minitest/unit"]
+        dic = ruby + denki + sql + gc + test
         dic.sort(key=lambda dic: dic[0])
         return dic

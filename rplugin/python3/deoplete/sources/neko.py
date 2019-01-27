@@ -2,7 +2,6 @@
 import base64
 from deoplete.source.base import Base
 
-
 class Source(Base):
     def __init__(self, vim):
         super().__init__(vim)
@@ -252,9 +251,28 @@ class Source(Base):
               "RGENGC_CHECK_MODE", "RGENGC_PROFILE", "RGENGC_ESTIMATE_OLDMALLOC", "GC_PROFILE_MORE_DETAIL",
               "GC_ENABLE_LAZY_SWEEP", "CALC_EXACT_MALLOC_SIZE", "MALLOC_ALLOCATED_SIZE", "MALLOC_ALLOCATED_SIZE_CHECK",
               "GC_PROFILE_DETAIL_MEMORY"]
-        mini_test = ["MiniTest::Unit","autorun","output=","assertion_count","assertion_count=","errors","errors=","failures","failures=","location","process_args","puke","report","report=","run","run_test_suites","skips","skips=","start_time","start_time=","status","test_count","test_count=","VERSION","MiniTest::Unit::TestCase","inherited","new","reset","test_methods","test_order","test_suites","__name__","passed?","run","setup","teardown","PASSTHROUGH_EXCEPTIONS","SUPPORTS_INFO_SIGNAL","MiniTest","filter_backtrace","MINI_DIR","MiniTest::Assertions","_assertions","_assertions=","assert","assert_block","assert_empty","assert_equal","assert_in_delta","assert_in_epsilon","assert_includes","assert_instance_of","assert_kind_of","assert_match","assert_nil","assert_operator","assert_raises","assert_respond_to","assert_same","assert_send","assert_throws","capture_io","exception_details","flunk","message","mu_pp","pass","skip","MiniTest::Skip","minitest/autorun","minitest/unit"]
-        mini_test_reporter = ["Minitest::Reporters::DefaultReporter","Minitest::Reporters::RubyMineReporter","Minitest::Reporters::JUnitReporter","Minitest::Reporters::MeanTimeReporter","Minitest::Reporters::HtmlReporter","Minitest::Reporters","Minitest::Reporters.use!","Minitest::Reporters::SpecReporter.new","Minitest::Reporters::DefaultReporter.new","Minitest::Reporters::ProgressReporter.new","Minitest::Reporters::RubyMateReporter.new","Minitest::Reporters::RubyMineReporter.new","Minitest::Reporters::JUnitReporter.new","Minitest::Reporters::MeanTimeReporter.new","Minitest::Reporters::HtmlReporter.new"]
-        unit_test = ["Test::Unit::TestCase","test_order","Test::Unit","setup_argv","Test::Unit::Assertions","assert_equal","assert_no_match","assert_not_equal","assert_not_nil","assert_not_same","assert_nothing_raised","assert_nothing_thrown","assert_raise","build_message","mu_pp"]
+        mini_test = ["MiniTest::Unit", "autorun", "output=", "assertion_count", "assertion_count=", "errors", "errors=",
+                     "failures", "failures=", "location", "process_args", "puke", "report", "report=", "run",
+                     "run_test_suites", "skips", "skips=", "start_time", "start_time=", "status", "test_count",
+                     "test_count=", "VERSION", "MiniTest::Unit::TestCase", "inherited", "new", "reset", "test_methods",
+                     "test_order", "test_suites", "__name__", "passed?", "run", "setup", "teardown",
+                     "PASSTHROUGH_EXCEPTIONS", "SUPPORTS_INFO_SIGNAL", "MiniTest", "filter_backtrace", "MINI_DIR",
+                     "MiniTest::Assertions", "_assertions", "_assertions=", "assert", "assert_block", "assert_empty",
+                     "assert_equal", "assert_in_delta", "assert_in_epsilon", "assert_includes", "assert_instance_of",
+                     "assert_kind_of", "assert_match", "assert_nil", "assert_operator", "assert_raises",
+                     "assert_respond_to", "assert_same", "assert_send", "assert_throws", "capture_io",
+                     "exception_details", "flunk", "message", "mu_pp", "pass", "skip", "MiniTest::Skip",
+                     "minitest/autorun", "minitest/unit"]
+        mini_test_reporter = ["Minitest::Reporters::DefaultReporter", "Minitest::Reporters::RubyMineReporter",
+                              "Minitest::Reporters::JUnitReporter", "Minitest::Reporters::MeanTimeReporter",
+                              "Minitest::Reporters::HtmlReporter", "Minitest::Reporters", "Minitest::Reporters.use!",
+                              "Minitest::Reporters::SpecReporter.new", "Minitest::Reporters::DefaultReporter.new",
+                              "Minitest::Reporters::ProgressReporter.new", "Minitest::Reporters::RubyMateReporter.new",
+                              "Minitest::Reporters::RubyMineReporter.new", "Minitest::Reporters::JUnitReporter.new",
+                              "Minitest::Reporters::MeanTimeReporter.new", "Minitest::Reporters::HtmlReporter.new"]
+        unit_test = ["Test::Unit::TestCase", "test_order", "Test::Unit", "setup_argv", "Test::Unit::Assertions",
+                     "assert_equal", "assert_no_match", "assert_not_equal", "assert_not_nil", "assert_not_same",
+                     "assert_nothing_raised", "assert_nothing_thrown", "assert_raise", "build_message", "mu_pp"]
         dic = ruby + denki + sql + gc + mini_test + unit_test + mini_test_reporter
         dic.sort(key=lambda dic: dic[0])
         return dic

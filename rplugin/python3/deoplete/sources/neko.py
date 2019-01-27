@@ -291,7 +291,7 @@ class Source(Base):
         m = re.search('[a-zA-Z0-9_?!]*$', context['input'])
         return m.start() if m else -1
 
-    def gather_candidates(self):
+    def gather_candidates(self, context):
         try:
             dic = ruby + denki + sql + gc + mini_test + mini_test_reporter + unit_test
             dic.sort(key=lambda dic: dic[0])

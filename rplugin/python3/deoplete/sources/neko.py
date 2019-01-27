@@ -1,4 +1,5 @@
 ﻿import re
+import traceback
 from deoplete.source.base import Base
 
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
@@ -296,5 +297,4 @@ class Source(Base):
             dic.sort(key=lambda dic: dic[0])
             return dic
         except Exception:
-            print
-            '例外を捕捉しました'
+            traceback.print_exc()

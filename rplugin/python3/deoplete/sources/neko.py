@@ -271,6 +271,8 @@ unit_test = [
     "assert_equal", "assert_no_match", "assert_not_equal", "assert_not_nil", "assert_not_same",
     "assert_nothing_raised", "assert_nothing_thrown", "assert_raise", "build_message", "mu_pp"
 ]
+
+
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
 class Source(Base):
@@ -289,6 +291,10 @@ class Source(Base):
         return m.start() if m else -1
 
     def gather_candidates(self, context):
-        dic = ruby + denki + sql + gc + mini_test + mini_test_reporter + unit_test
-        dic.sort(key=lambda dic: dic[0])
-        return dic
+        try:
+            dic = ruby + denki + sql + gc + mini_test + mini_test_reporter + unit_test
+            dic.sort(key=lambda dic: dic[0])
+            return dic
+        except Exception:
+            print
+            '例外を捕捉しました'

@@ -1,5 +1,7 @@
 Neovim / Vim
 
+Don't use HEAD case.
+
 .vim or .config/nvim
 
 wget https://github.com/Shougo/deoplete.nvim/archive/4.1.zip

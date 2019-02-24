@@ -273,6 +273,7 @@ unit_test = [
     "assert_equal", "assert_no_match", "assert_not_equal", "assert_not_nil", "assert_not_same",
     "assert_nothing_raised", "assert_nothing_thrown", "assert_raise", "build_message", "mu_pp"
 ]
+syntax = ["frozen_string_literal: true"]
 
 
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
@@ -294,7 +295,7 @@ class Source(Base):
 
     def gather_candidates(self, context):
         try:
-            dic = ruby + denki + sql + gc + mini_test + mini_test_reporter + unit_test
+            dic = ruby + denki + sql + gc + mini_test + mini_test_reporter + unit_test + syntax
             dic.sort(key=lambda dic: dic[0])
             return dic
         except Exception:

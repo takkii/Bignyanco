@@ -1,7 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)[![GitHub release](https://img.shields.io/github/release/takkii/Bignyanco.svg?style=flat)](GitHub)[![GitHub Status](https://img.shields.io/github/last-commit/takkii/Bignyanco.svg?style=flat)](GitHub)
 
 <div style="text-align: center;">
-![蛇とるびー](https://github.com/takkii/Bignyanco/blob/master/images/python_ruby.gif)
+<img src="https://github.com/takkii/Bignyanco/blob/master/images/python_ruby.gif" alt="PythonとRuby" title="logo">
 </div>
 
 ## Bignyanco is neovim plugins. 

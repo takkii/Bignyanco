@@ -1,5 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)[![GitHub release](https://img.shields.io/github/release/takkii/Bignyanco.svg?style=flat)](GitHub)[![GitHub Status](https://img.shields.io/github/last-commit/takkii/Bignyanco.svg?style=flat)](GitHub)
 
+![蛇とるびー](https://github.com/takkii/Bignyanco/blob/master/images/python_ruby.gif)!
+
 ## Bignyanco is neovim plugins. 
 
 ※ Bignyanco is the neovim plugins. However, if deoplete moves, it works with the vim plugins. 

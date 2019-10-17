@@ -226,7 +226,7 @@ ruby = [
     "singleton_methods"
 ]
 denki = [
-    "tanraku", "tanraku_log"
+    "tanraku", "tanraku_log", "tanraku_exit"
 ]
 sql = [
     "SQLite3::Database", "execute", "db", "Constants", "Pragmas", "VersionProxyClasses:AbortException",
